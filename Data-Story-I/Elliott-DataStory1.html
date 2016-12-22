@@ -1,0 +1,581 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Mars Exploration Timeline</title>
+    </head>
+    <body>
+        
+<style>
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    background: #1C0327;
+    color: #000000;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}  
+
+/* -------------------------------- HEADLINE AND LEDE ---------------------------------- */
+.lede {
+    background: #934838;
+    margin:auto;
+    padding-bottom: 50px;
+    padding-top:50px;
+    padding-left:100px;
+    padding-right:100px;
+}
+
+.lede-box {
+    width: 90%;
+    max-width: 1200px;
+    margin: inherit;
+}
+
+p1 {
+    font-family:"Helvetica Neue", sans-serif;
+    color: #FFFFFF;
+    line-height: 1.5em;
+    padding-left: 40px;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 25px;
+}
+h3 {
+    font-size: 1.5em;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 25px;
+}
+h5 {
+    text-align: center;
+    color:#FFFFFF;
+    padding-bottom: 25px;
+
+
+}
+/*--------------------------------- HEADLINE AND LEDE END -----------------------------*/
+    
+    
+    
+    
+    
+    
+    
+/* --------------------------------TIMELINE1-------------------------------------------*/
+            
+.timeline1 ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #934838;
+}
+
+.timeline1 ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+   	transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+}                
+    
+    
+/*-------------------------------- TIMELINE1 BOXES--------------------------------------*/    
+    
+    
+    
+.timeline1 ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #C0C0C0;
+}
+
+.timeline1 ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+    
+    
+/*------------------------------------- TIMELINE1 ARROWS -------------------------------*/
+
+.timeline1 ul li:nth-child(odd) div {
+    left: -439px;
+}
+
+.timeline1 ul li:nth-child(odd) div::before {
+	right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #C0C0C0;
+}
+
+    
+.timeline1 ul li:nth-child(even) div {
+    left: -439px;
+}
+
+.timeline1 ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #C0C0C0;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/* --------------------------------TIMELINE2-------------------------------------------*/
+            
+.timeline2 ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #934838;
+}
+
+.timeline2 ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+   	transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+}                
+    
+    
+/*-------------------------------- TIMELINE2 BOXES --------------------------------------*/    
+    
+    
+    
+.timeline2 ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #C0C0C0;
+}
+
+.timeline2 ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+    
+    
+/*------------------------------------- TIMELINE2 ARROWS -------------------------------*/
+
+.timeline2 ul li:nth-child(odd) div {
+    left: 45px;
+}
+
+.timeline2 ul li:nth-child(odd) div::before {
+	left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #C0C0C0 transparent transparent;
+}
+
+    
+.timeline2 ul li:nth-child(even) div {
+    left: 45px;
+}
+
+.timeline2 ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #C0C0C0 transparent transparent;
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+/*------------------------------------- TIMELINE3 --------------------------------------*/   
+    
+.timeline3 ul li {
+    list-style-type: none;
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #934838;
+}
+
+.timeline3 ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+   	transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: inherit;
+}                
+    
+    
+/*-------------------------------- TIMELINE3 BOXES --------------------------------------*/    
+    
+    
+    
+.timeline3 ul li div {
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #C0C0C0;
+}
+
+.timeline3 ul li div::before {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.timeline3 ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.timeline3 ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #C0C0C0 transparent transparent;
+}
+
+/*------------------------------------- TIMELINE3 ARROWS -------------------------------*/
+
+.timeline3 ul li:nth-child(even) div {
+  left: -439px;
+}
+
+.timeline3 ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #C0C0C0;
+}
+    
+/*--------------------------------- TIMELINE END --------------------------------------*/
+
+.img {
+    float: inherit;
+}
+    
+
+/*-----------------------------------QUERIES3--------------------------------*/
+@media screen and (max-width: 900px) {
+  .timeline3 ul li div {
+    width: 250px;
+  }
+  .timeline3 ul li:nth-child(even) div {
+    left: -289px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline3 ul li {
+    margin-left: 20px;
+  }
+  .timeline3 ul li div {
+    width: calc(100vw - 91px);
+  }
+  .timeline3 ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline3 ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #C0C0C0 transparent transparent;
+  }
+}
+/*-------------------------------------QUERIES2---------------------------*/
+
+
+
+</style>
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+<!-------------------------------------- HTML---------------------------------------->
+        
+        <div class="lede">
+            <div class="lede-box">
+                <h1>Life on Mars</h1>
+                <h3><i>How far we've come, and how we'll get there.</i></h3>
+                <h5>Kamal Elliott</h5>
+                
+                <p1>Since the beginning of the space race, Mars has been a tangible goal for NASA’s exploration efforts. Its potential and proximity leads many to believe that it could be a second home for humanity.</p1><br>
+                
+                <p1>In fact, it has become a request from a certain science-oriented president on his way out of office. <a href ="http://www.cnn.com/2016/10/11/opinions/america-will-take-giant-leap-to-mars-barack-obama/"> President Obama recently wrote an Op-Ed </a>calling for NASA and the U.S. private sector to cooperate in order to colonize the planet.</p1><br>
+                
+                <p1>While NASA has worked closely with various universities and well-known names like Lockheed Martin or Boeing, SpaceX is one of the few firms with Mars as its primary target. The company seeks to launch multiple resupply missions to whoever is on the planet by 2030.</p1><br>
+                
+                <p1>Every <b style="color:#14c2f4">successful</style></b> SpaceX launch brings them closer to that goal, with failure acting as a valuable lesson and NASA’s history as a guide.</p1><br>
+                
+            </div>
+        </div>
+        
+		<section class="timeline1">
+            <ul>
+                <li>
+                    <div>
+                        <time>Nov. 5, 1964</time>
+                            <h4 style="color:#cc1100">Mariner 3</stlye></h4>
+                            <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Nov. 28, 1964</time>
+                            <h4 style="color:#1464f4">Mariner 4</style></h4>
+                        <img src="Mariner4Blue.png">
+                            <p>Captured the first images of Mars.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Nov. 25, 27, 1964</time>
+                        <h4 style="color:#1464f4">Mariner 6 & Mariner 7</style></h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>May 9, 30, 1971</time>
+                        <h4 style="color:#cc1100"> Mariner 8 & Mariner 9</style></h4>
+                            <p></p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>August 10, 1975</time>
+                            <h4 style="color:#1464f4">Viking 1</style></h4>
+                        <img src="VikingBlue.png">
+                            <p>First spacecraft to land on Mars</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>July 25, 1992</time>
+                            <h4 style="color:#cc1100">Mars Observer</style></h4>
+                            <p></p>
+                        <li>
+                    <div>
+                        <time>Dec. 4, 1996</time>
+                        <h4 style="color:#1464f4">Mars Pathfinder</style></h4>
+                        <img src="RoverBlue.png">
+                            <p>First rover to explore Mars</p>
+                    </div>
+                </li>
+                    <li>
+                    <div>
+                        <time>Jan. 3, 1999</time>
+                        <h4 style="color:#cc1100">Mars Polar Lander, Deep Space 2 Probes</style></h4>
+                        <img src="VikingRed.png">
+                            <p>All spacecraft lost on arrival</p>
+                        <li>
+                    <div>
+                        <time>June 10, 2003 - July 7, 2003</time>
+                        <h4 style="color:#1464f4">Spirit, Opportunity Rovers</style></h4>
+                        <img src="RoverBlue.png">
+                            <p>Rovers that operated 15 times longer than the original goal</p>
+                        <li>
+                    <div>
+                        <time>August 12, 2005</time>
+                        <h4 style="color:#1464f4">Mars Recconnaissance Orbiter</style></h4>
+                            <p>Returned more data to Earth than all other mars missions combined.</p>
+                    </div>
+                </li>
+         </section>
+            </ul>
+            
+        <section class="timeline2">
+            <ul>
+                <li>
+                    <div>
+                        <time>March 24, 2006</time>
+                            <h4 style="color:#cc1100">Falcon 1</style></h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>March 30, 2007</time>
+                            <h4 style="color:#cc1100">Falcon 1</style></h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>August 8, 2008</time>
+                            <h4 style="color:#cc1100"> Falcon 1</style></h4>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Sept. 28, 2008</time>
+                            <h4 style="color:#1464f4">Falcon 1</style></h4>
+                            <img src="Falcon1.png">
+                        <p>SpaceX's first successful flight</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>June 4, 2010</time>
+                        <h4 style="color:#1464f4">Falcon 9</style></h4>
+                        <img src="Falcon9Blue.png">
+                        <p>First Falcon 9 Flight, the current affordable spacecraft model for SpaceX</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Oct. 8, 2012</time>
+                        <h4 style="color:#1464f4">Falcon 9 & Dragon ISS</style></h4>
+                        <img src="IssBlue.png">
+                        <p> First International Space Station resupply for NASA</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Sept. 7 2015</time>
+                        <h4 style="color:#1464f4">Falcon 9</style></h4>
+                        <p>Deployment of a US Air Force climate-observing satellite</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>June 28, 2016</time>
+                        <h4 style="color:#cc1100">Falcon 9 & Dragon ISS</style></h4>
+                        <img src="IssRed.png">
+                        <p>First failed NASA resupply</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>July 18, 2016</time>
+                        <h4 style="color:#1464f4">Falcon 9 & Dragon ISS</style></h4>
+                        <p>Successful resupply</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>Sept. 1, 2016</time>
+                        <h4 style="color:#cc1100">Falcon 9 & AMOS</style></h4>
+                        <img src="Falcon9Red.png">
+                        <p>Failed flight for Spacecom Israel</p>
+                    </div>
+                </li>
+                </section>
+            </ul>
+        
+    <section class="timeline3">
+            <ul>
+                </li>
+                <li>
+                    <div>
+                        <time>2016</time>
+                            <p>Series of experiments on the impact of long-term space travel on humans</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>2017</time>
+                            <h4>Falcon 9</h4>
+                        <p>NASA crew mission with SpaceX to the ISS.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>2017</time>
+                            <h4>Falcon Heavy</h4>
+                        <img src="FalconHeavy.png">
+                        <p>Long-range spacecraft variant to make its debut</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>2020</time>
+                        <h4>InSight</h4>
+                        
+                        <p>Will study subsurface mars</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>2020s</time>
+                        <h4>Falcon Heavy & Red Dragon</h4>
+                        
+                        <p>SpaceX/Nasa Mars missions</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>2021</time>
+                        <h4>AARM</h4>
+                        <img src="Aarm.png">
+                        <p>Manned asteriod redirect mission</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <time>2030s</time>
+                        <h4>Goal for colonization</h4>
+                    </div>
+                </li>
+                </section>
+            </ul>
+        
+    </body>
+    
+    
+</html>
